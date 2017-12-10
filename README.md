@@ -29,19 +29,19 @@ Here each subfolder 'ImageClassi' consists set of images of i-th class.
 
 Description of main modules:
 
-deepClassificationTool.py - main module for training and testing of deep neural network
+***deepClassificationTool.py*** - main module for training and testing of deep neural network
 
-testFunctions.py - functions for testing of trained deep neural network on one image, two images and folder of images
+***testFunctions.py*** - functions for testing of trained deep neural network on one image, two images and folder of images (with calculation of recall, precision for each class and accuracy)
 
-modelVGGm.py - Light version of VGG for small images - Inspired from VGG, 2014 - VGGm(modified)
+***modelVGGm.py*** - Light version of VGG for small images - Inspired from VGG, 2014 - VGGm(modified)
 
-modelResNetM.py - Light version of ResNet for small images - resNetM (modified)
+***modelResNetM.py*** - Light version of ResNet for small images - resNetM (modified)
 
                     # Reference - [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
                     
                     # Reference - [https://github.com/fchollet/keras/blob/master/keras/applications/resnet50.py]
                     
-modelInceptionV3m.py - Light version of inceptionV3 - inceptionV3m (modified)
+***modelInceptionV3m.py*** - Light version of inceptionV3 - inceptionV3m (modified)
 
                     # Reference - [https://github.com/fchollet/keras/blob/master/keras/applications/inception_v3.py]
                     
