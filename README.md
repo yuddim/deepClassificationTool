@@ -5,7 +5,7 @@ Tool uses python 3.5.
 **Tool has 3 modes:**
 1) **Training of new deep neural network** (train_flag = True, tune_flag = False).
 2) **Tuning of existing deep neural network** (train_flag = True, tune_flag = True).
-3) **Testing of existing existing (trained) deep neural network** (train_flag = False, tune_flag = False) or (train_flag = False, tune_flag = True).
+3) **Testing of existing (trained) deep neural network** (train_flag = False, tune_flag = False) or (train_flag = False, tune_flag = True).
 
 For training and tune mode you need two folders:
 1) Training folder with subfolders - one for each image class
