@@ -117,3 +117,5 @@ def resNetM(input_shape, classes):
     inputs = img_input
 
     model = Model(inputs, x, name='resnetM')
+    
+    return model
