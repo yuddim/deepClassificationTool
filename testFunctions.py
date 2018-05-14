@@ -100,7 +100,7 @@ def test_path_gen(path, img_width, img_height, model, save_e_path = '', save_tun
 
     precision = []
     recall = []
-    n_classes = little_generator.num_class
+    n_classes = little_generator.num_classes
     n_images = little_generator.n
     treshold = 0.5
     labels = little_generator.class_indices.items()
